@@ -1,0 +1,28 @@
+window: 337 steps, 2025-11-14 00:00:00+00:00 .. 2026-10-15 08:10:40+00:00
+
+fixed alpha 25% (status quo)        33.5M STRK (+0%)  $1.95M (+0%)  24.9 BTC (+0%)  BTC APR avg 3.38% min 1.73% max 10.37%  alpha [25.0-25.0%]  days BTC>STRK 2
+-- original post: k=0.4, 7d TWAP, [10%,33%], no rate cap
+original floating                   36.1M STRK (+8%)  $2.01M (+3%)  25.5 BTC (+2%)  BTC APR avg 3.31% min 1.57% max 5.33%  alpha [12.1-33.0%]  days BTC>STRK 0
+-- reply to sluhai: SNIP-35-style controller, a0=0.25, spot, cap 33%
+k=0.4 d=0.5%/epoch                  36.4M STRK (+9%)  $2.01M (+3%)  25.5 BTC (+2%)  BTC APR avg 3.30% min 1.49% max 4.70%  alpha [12.2-33.0%]  days BTC>STRK 0
+k=0.4 d=0.2%/epoch                  36.4M STRK (+9%)  $2.03M (+4%)  25.7 BTC (+3%)  BTC APR avg 3.33% min 1.40% max 6.16%  alpha [13.6-33.0%]  days BTC>STRK 0
+k=0.4 d=1%/epoch                    36.5M STRK (+9%)  $2.01M (+3%)  25.5 BTC (+2%)  BTC APR avg 3.30% min 1.72% max 4.35%  alpha [9.0-33.0%]  days BTC>STRK 0
+k=0.4 d=0.5% + 7d TWAP              36.1M STRK (+8%)  $2.01M (+3%)  25.5 BTC (+2%)  BTC APR avg 3.31% min 1.57% max 5.33%  alpha [12.1-33.0%]  days BTC>STRK 0
+k=0.4 d=0.5% + 30d TWAP             35.3M STRK (+5%)  $2.01M (+3%)  25.4 BTC (+2%)  BTC APR avg 3.32% min 1.61% max 7.89%  alpha [17.2-33.0%]  days BTC>STRK 1
+k=0.4 d=0.5% cut-only (max 25%)     30.3M STRK (-9%)  $1.69M (-13%)  21.5 BTC (-13%)  BTC APR avg 2.86% min 1.49% max 4.50%  alpha [12.2-25.0%]  days BTC>STRK 0
+k=0.5 d=0.5%/epoch                  42.5M STRK (+27%)  $2.34M (+20%)  29.8 BTC (+20%)  BTC APR avg 3.92% min 1.87% max 5.63%  alpha [14.8-33.0%]  days BTC>STRK 0
+k=0.6 d=0.5%/epoch                  45.0M STRK (+34%)  $2.51M (+29%)  32.0 BTC (+28%)  BTC APR avg 4.24% min 2.25% max 6.41%  alpha [17.1-33.0%]  days BTC>STRK 0
+
+-- days with BTC APR > STRK APR under fixed alpha
+   2026-10-11  STRK $0.1032  BTC APR 8.75%  STRK APR 7.69%
+   2026-10-12  STRK $0.1230  BTC APR 10.37%  STRK APR 7.69%
+
+-- forward scenarios (12 months, geometric paths, S constant). STRK APR 7.71%, crossover price today $0.0941
+   STRK->$0.15 BTC x1: fixed BTC APR at end  12.3%, paid $ 4.3M; floating APR 3.08%, paid $1.49M; BTC>STRK from day 115
+   STRK->$0.15 BTC x2: fixed BTC APR at end   6.1%, paid $ 4.3M; floating APR 3.08%, paid $2.15M; BTC>STRK from day -
+   STRK->$0.3  BTC x1: fixed BTC APR at end  24.6%, paid $ 6.5M; floating APR 3.08%, paid $1.49M; BTC>STRK from day 57
+   STRK->$0.3  BTC x2: fixed BTC APR at end  12.3%, paid $ 6.5M; floating APR 3.08%, paid $2.15M; BTC>STRK from day 115
+   STRK->$0.5  BTC x1: fixed BTC APR at end  41.0%, paid $ 8.9M; floating APR 3.08%, paid $1.49M; BTC>STRK from day 42
+   STRK->$0.5  BTC x2: fixed BTC APR at end  20.5%, paid $ 8.9M; floating APR 3.08%, paid $2.15M; BTC>STRK from day 66
+   STRK->$1.0  BTC x1: fixed BTC APR at end  81.9%, paid $14.2M; floating APR 3.08%, paid $1.49M; BTC>STRK from day 31
+   STRK->$1.0  BTC x2: fixed BTC APR at end  41.0%, paid $14.2M; floating APR 3.08%, paid $2.15M; BTC>STRK from day 42

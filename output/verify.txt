@@ -1,0 +1,22 @@
+block 3559102 (2025-11-13): max rel diff 1.2e-10
+block 4235302 (2025-12-13): max rel diff 3.2e-10
+block 4911502 (2025-12-29): max rel diff 3.4e-10
+block 5587702 (2026-01-14): max rel diff 3.8e-10
+block 6263902 (2026-01-31): max rel diff 3.8e-10
+block 6940102 (2026-02-19): max rel diff 2.8e-10
+block 7616302 (2026-03-11): max rel diff 2.1e-10
+block 8292502 (2026-03-31): max rel diff 2.9e-10
+block 8968702 (2026-04-20): max rel diff 3.4e-10
+block 9644902 (2026-05-10): max rel diff 1.9e-10
+block 10321102 (2026-05-30): max rel diff 1.4e-10
+block 10997302 (2026-06-20): max rel diff 2.4e-10
+block 11673502 (2026-07-10): max rel diff 8.4e-11
+block 12349702 (2026-07-27): max rel diff 3.2e-10
+block 13025902 (2026-08-09): max rel diff 3.0e-10
+block 13702102 (2026-08-22): max rel diff 2.2e-10
+block 14378302 (2026-09-05): max rel diff 2.5e-10
+block 15054502 (2026-09-18): max rel diff 2.0e-10
+block 15730702 (2026-10-01): max rel diff 8.2e-11
+block 16406902 (2026-10-15): max rel diff 1.5e-10
+block 16466728 (2026-10-16): max rel diff 8.1e-11
+worst 3.836281377854203e-10
